@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content"width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Planets</title>
+		<link rel="icon" type = "image/png" href = "media/logo.png">
+	</head>
+	<body class="cometPage">
+		<header>
+		<!--logo-->
+			<div class = "cover">
+				<img src = "media/cover2.png">
+			</div>
+		<!--navbar-->
+			<div id="menu">
+				<nav id="navbar">
+				<ul> 
+					<div class="navigate">
+						<a href="index.html">
+							<img src="media/logo.png" class ="logo">
+						</a>
+						<a href = "index.html">Introduction</a>
+						<a href = "planets.html">Planets</a> 
+						<a href = "comets.html">Comets</a>
+						<a href = "moons.html">Moons</a>
+						<a href = "other.html">Others</a>
+						<a href = "#Contact">Info</a> 		
+					</div>
+				</ul>
+				</nav>
+			</div>
+		</header>
+			<main>				
+				<!--gallery section-->
+				<section>
+					<div>
+						<center>
+							<p>Gallery</p> 
+							<img id="gallery" src="media/Planets/earth.png" >	
+							<br><br>
+							<div id="btn">
+								<button id="backButton" onclick="previousImage()">Back</button>
+								<button id="nextButton" onclick="nextImage()">Next</button>
+							</div> 
+						</center>
+					</div>
+				</section> 
+				<br><br><br><br><br><br>
+				<!--quiz section-->
+				<section>
+					<div>
+						<center>
+							<div style="background-color: rgba(87, 87, 87, 0.25); width:100%; border-radius:50px; padding: 5px 0 5px 0;">
+								<p>Search more Information about Planetary Science</p> 
+								<input id="search-input" type="text" placeholder="Search on Google">
+								<div id="btn">
+								<button onclick="search()">Search</button>
+								</div>
+							</div>
+						</center>
+					</div>
+				</section>
+				
+				<section>
+						<center>
+							<p class = "title4"> ☽ More Planetary Sources ☽ </p> 
+						</center>
+							<center>
+								<div class="container">
+								<a href = "https://planetary-science.org/planetary-science-3/an-introduction-to-planetary-science/">
+									<img src="media/orgs/planetaryscience.png" class="image">
+									<div class="middle">
+										<div class="text">Planetary Science</div>
+									</div>
+								</a>
+								</div>
+								
+								<div class="container2">
+								<a href = "https://solarsystem.nasa.gov/planets/in-depth/">
+									<img src="media/orgs/nasa.png" class="image2">
+									<div class="middle2">
+										<div class="text2">NASA</div>
+									</div>
+								</a>
+								</div>
+									
+								<div class="container3">
+								<a href = "https://www.youtube.com/@SpaceX">
+									<img src="media/orgs/spacex.png" class="image3">
+									<div class="middle3">
+										<div class="text3">Space X</div>
+								</a>
+									</div>
+								</div>
+								
+
+								<div class="container5">	
+								<a href = "https://global.jaxa.jp">
+									<img src="media/orgs/jaxa.png" class="image5">
+								</a>
+									<div class="middle5">
+										<div class="text5">Japanese Aerospace</div>
+									</div>
+								</div>
+							</center>
+					</div>
+				</section>
+			</main>
+			<br><br><br><br><br><br><br><br><br><br>
+			<footer id = "Contact">
+				<center>
+					<h3> &copy Gabrielle A. Kwan ~ IX - Sodium </h3> 
+				</center>
+					<h6> Disclaimer: This website is for educational purposes only. Credits belong to the rightful owner. </h6>
+			</footer>
+		<script src="script.js">	
+		</script>
+	</body>
+	

@@ -1,0 +1,481 @@
+::-webkit-scrollbar{
+    background: #111036;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #211f5c;
+}
+
+@font-face{
+	font-family: sans-serif;
+	src: url("lemon_milk/lemonmilk.otf");
+	src: url ("garet/Garet-Book.ttf");
+}
+*{
+	color: white;
+	text-decoration: none;
+}
+html{
+	scroll-snap-align: start;
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	background-color: #03001C;
+	
+}
+.header img{
+	width: 100%;
+	height: 790px;
+	background-color: #301E67;
+}
+.cover img{
+	width: 100%;
+	height: 25%;
+	object-fit: cover;
+	background-color: #301E67;
+}
+nav{
+	margin-top: -5px;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	background-color: #301E67;
+	padding: 10px 0;
+	font-family: 'LEMON MILK', sans-serif;
+	z-index: 1;
+}
+.logo{
+	width: 70px;
+	margin: -10px 50px -10px 29px;
+}
+nav ul a{
+	transition: 0.5s;
+	float: left;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin: 5px 27px;
+	color: white;
+	font-size: 20px;
+	padding-top: -100px;
+}
+nav ul a:hover{
+	transition: 0.5s;
+	color: #ea3b50;
+}
+nav.sticky ul{
+	position: fixed;
+	margin: 0;
+	top: 0;
+	left:0;
+	padding: 0;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	background: #301E67;
+	z-index: 1;
+	width:100%;
+}
+nav.sticky ul a{
+	margin: 17px 70px 20px 19.7px;
+}
+nav.sticky{
+	width: 100%;
+}
+.intro1{
+	margin-top: 0px;
+	height: 10%;
+	width: 100%;
+	object-fit: cover;
+}
+.header img{
+	object-fit: cover;
+	width:100%;
+	height:645px;
+	margin-top: -20px;
+}
+ <!--need this pls remember important-->
+.vid{ 
+	margin: 170px 0 0 10px;
+	padding-left: 40px;
+}
+.buttons{
+	 background-color: rgba(87, 87, 87, 0.25);
+}
+.buttons button{
+	transition: 0.5s;
+	margin-left: 250px;
+	background-color: transparent;
+	padding:10px;
+	border-style: none;
+	font-size: 40px;
+	font-family: Lemon Milk;
+}
+.buttons button:hover{
+	transition: 0.5s;
+	color: #ea3b50;
+	box-shadow: inset 0 2px;
+	text-decoration: none;
+}
+.planetPage{
+	background-image: url("media/Planetary Science3.gif"); 
+	background-attachment: scroll;
+}
+.cometPage{
+	background-image: url("media/Planetary Science3.gif"); 
+	width:100%;
+	height:100%;
+	background-attachment: fixed;
+}
+.moonPage{
+	background-image: url("media/Planetary Science3.gif"); 
+	background-attachment: scroll;
+}
+.desc1{
+	box-sizing: border-box;
+	float: right;
+	font-family: 'Garet', sans-serif;
+	margin: -300px 60px 0 830px ;
+	text-align: justify;
+	font-size: 20px;
+}
+ /*first template shown*/
+.title{
+	float: right;
+	font-size: 75px;
+	margin: 60px 300px 0 0;
+	font-family: 'LEMON MILK', sans-serif;
+}
+.firstImg{
+	border: solid 5px #1C1B59;
+	width: 720px;
+	height: 400px;
+	margin: 70px 0 0 10px;
+	margin-left: 40px;
+}
+ /*second template shown*/
+.secondImg{
+	border: solid 5px #1C1B59;
+	float: right;
+	width: 720px;
+	height: 400px;
+	margin: 160px 40px 0 0;
+}
+.desc2{
+	box-sizing: border-box;
+	float: left;
+	font-family: 'Garet', sans-serif;
+	margin: 0 40px 0 50px;
+	text-align: justify;
+	font-size: 20px;
+	width: 40%;
+}
+.title2{
+	float: left;
+	font-size: 75px;
+	margin: 150px 0 0 50px;
+	font-family: 'LEMON MILK', sans-serif;
+}
+ /*third template shown*/
+.thirdImg{
+	border: solid 5px #1C1B59;
+	float: left;
+	width: 720px;
+	height: 400px;
+	margin: 150px 40px -200px 0;
+	margin-left: 40px;
+}
+.desc3{
+	box-sizing: border-box;
+	float: left;
+	font-family: 'Garet', sans-serif;
+	margin: 0 40px 0 20px;
+	text-align: justify;
+	font-size: 20px;
+	width: 40%;
+}
+.title3{
+	float: left;
+	font-size: 75px;
+	margin: 130px 0 0 20px;
+	font-family: 'LEMON MILK', sans-serif;
+}
+
+
+ /*others*/
+#btn button{
+	transition: 0.5s;
+	background-color: transparent;
+	padding:10px;
+	border-style: none;
+	font-size: 40px;
+	font-family: Lemon Milk;
+}
+#nextButton{
+	margin-left: 100px;
+}
+#btn button:hover{
+	transition: 0.5s;
+	color: #ea3b50;
+	box-shadow: inset 0 2px;
+	text-decoration: none;
+}
+/*for gallery text title*/
+p{
+	font-size: 50px;
+	font-family: 'LEMON MILK', sans-serif;
+}
+#gallery{
+	width: 690px;
+	height: 400px;
+	object-fit: cover;
+	border: solid 5px #1C1B59;
+	border-radius: 12.5px;
+}
+.title4{
+	font-size: 75px;
+	padding-top: 100px;
+	margin: 450px 0 100px 0;
+	font-family: 'LEMON MILK', sans-serif;
+}
+.container {
+	position: relative;
+	width: 300px;
+	margin: 0 0 0 320px;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding-left: 20px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.text{
+	color: white;
+	font-size: 30px;
+  	font-family: 'LEMON MILK', sans-serif;
+}
+.container2 {
+	width: 300px;
+	position: relative;
+	width: 300px;
+	margin: -300px 0 0 50px;
+	float: left;
+}
+
+.image2 {
+	opacity: 1;
+	display: block;
+	width: 300px;
+	height: 300px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+    padding-left: 20px;
+}
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container2:hover .image2 {
+  opacity: 0.3;
+}
+
+.container2:hover .middle2{
+  opacity: 1;
+}
+.text2{
+	color: white;
+	font-size: 30px;
+  	font-family: 'LEMON MILK', sans-serif;
+}
+.container3{
+	width: 300px;
+	position: relative;
+	margin: -300px 0 0 400px;
+	float: left;
+}
+
+.image3{
+	opacity: 1;
+	display: block;
+	width: 300px;
+	height: 300px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+    padding-left: 20px;
+}
+
+.middle3{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container3:hover .image3{
+  opacity: 0.3;
+}
+
+.container3:hover .middle3{
+  opacity: 1;
+}
+.text3{
+	color: white;
+	font-size: 30px;
+  	font-family: 'LEMON MILK', sans-serif;
+}
+.container4{
+	width: 300px;
+	position: relative;
+	margin: 0 0 0 -500px;
+	float: right;
+}
+
+.image4{
+	opacity: 1;
+	display: block;
+	width: 300px;
+	height: 300px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+    padding-left: 20px;
+}
+
+.middle4{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container4:hover .image4{
+  opacity: 0.3;
+}
+
+.container4:hover .middle4{
+  opacity: 1;
+}
+.text4{
+	color: white;
+	font-size: 30px;
+  	font-family: 'LEMON MILK', sans-serif;
+}
+.container5{
+	width: 300px;
+	position: relative;
+	margin: -300px 100px 0 0;
+	float: right;
+}
+
+.image5{
+	opacity: 1;
+	display: block;
+	width: 300px;
+	height: 300px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+    padding-left: 20px;
+}
+.middle5{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container5:hover .image5{
+  opacity: 0.3;
+}
+
+.container5:hover .middle5{
+  opacity: 1;
+}
+.text5{
+	color: white;
+	font-size: 30px;
+  	font-family: 'LEMON MILK', sans-serif;
+}
+/* part that handles footer */
+footer {
+	text-align: center;
+	padding: 3px;
+	background-color: #301E67;
+	color: white;
+}
+footer h3{
+	margin: 20px;
+	font-size: 20px;
+  	font-family: 'LEMON MILK', sans-serif;
+}
+footer h6{
+	margin: 20px;
+	font-size: 20px;
+	font-family: 'Garet', sans-serif;
+}
+footer img{
+	padding: 50px 0 0 0;
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+.question{
+	background-color: rgba(87, 87, 87, 0.25);
+	padding-bottom: 10px;
+}
+form div p.question{
+	text-align:center;
+}
+form ul li{
+	font-family: 'Garet', sans-serif;
+	font-size: 50px;
+	list-style: none;
+}
+input[type=radio] {
+    border: 0px;
+    width: 2em;
+    height: 2em;
+}
+#search-input{
+	color:black;
+	width: 800px;
+	height: 40px;
+	margin-bottom: 25px;
+	font-size: 25px;
+}
